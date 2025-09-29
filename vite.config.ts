@@ -52,7 +52,7 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: '[my-framework] build --output public',
     },
     server: {
       port: 3000,
