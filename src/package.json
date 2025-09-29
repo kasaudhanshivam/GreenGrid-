@@ -1,0 +1,57 @@
+{
+  "name": "greengrid",
+  "version": "2.0.0",
+  "description": "Renewable Energy Management Platform for Educational Institutes in Rajasthan",
+  "main": "App.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "type-check": "tsc --noEmit",
+    "export": "next export",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "npm run build && netlify deploy --prod --dir=out"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tailwindcss": "^4.0.0",
+    "lucide-react": "^0.263.1",
+    "recharts": "^2.8.0",
+    "react-hook-form": "^7.55.0",
+    "motion": "^10.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^14.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "renewable-energy",
+    "solar-power",
+    "wind-energy",
+    "battery-management",
+    "energy-monitoring",
+    "rajasthan",
+    "educational-institutes",
+    "sustainability",
+    "green-technology",
+    "ai-forecasting"
+  ],
+  "author": "GreenGrid Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/greengrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/greengrid/issues"
+  },
+  "homepage": "https://greengrid.vercel.app"
+}
